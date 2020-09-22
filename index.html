@@ -9,7 +9,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
-  <title>maketVet</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>VetClinic</title>
 </head>
 
 <body>
@@ -22,10 +23,10 @@
           <p class="logo_name"><span>COMPANY LOGO</span><br>Lorem Ipsum available</p>
         </a>
         <nav class="nav">
-          <a class="item" href="#">Home</a>
-          <a class="item" href="#">About</a>
-          <a class="item" href="#">Service</a>
-          <a class="item" href="#">Contact</a>
+          <a class="item" href="#" data-scroll="#home">Home</a>
+          <a class="item" href="#" data-scroll="#about">About</a>
+          <a class="item" href="#" data-scroll="#service">Service</a>
+          <a class="item" href="#" data-scroll="#contact">Contact</a>
         </nav>
         <form class="form_sch" action="">
           <input class="inp_sch" type="search" placeholder="Search">
@@ -35,7 +36,7 @@
     </div>
   </header>
   <!-- ----------------------------------------------------------------------------------------------------- -->
-  <section class="home1">
+  <section class="home1" id="home">
     <div class="container">
       <div class="home1_content">
         <div class="wrap_hm1c">
@@ -75,7 +76,7 @@
     </div>
   </section>
   <!-- ----------------------------------------------------------------------------------------------------- -->
-  <section class="section3">
+  <section class="section3" id="about">
     <div class="container">
       <div class="section3_content">
         <div class="title">
@@ -138,7 +139,7 @@
     </div>
   </section>
   <!-- ----------------------------------------------------------------------------------------------------- -->
-  <section class="section-5 section3 color_white">
+  <section class="section-5 section3 color_white" id="service">
     <div class="container">
       <div class="title">
         <h1 class="section3_h1">Title Here</h1>
@@ -174,7 +175,7 @@
     </div>
   </section>
   <!-- ----------------------------------------------------------------------------------------------------- -->
-  <section class="section_6 color_black">
+  <section class="section_6 color_black" id="contact">
     <div class="container">
       <div class="container">
         <div class="title">
@@ -327,11 +328,7 @@
     </div>
   </footer>
   <!-- ----------------------------------------------------------------------------------------------------- -->
-  <!-- <script type="text/javascript">
-    function play(){
-        document.getElementById('vidwrap').innerHTML = '<iframe class="video" src="https://www.youtube.com/embed/3jT_q7dt-cM" frameborder="0" allowfullscreen></iframe>';
-    }
-</script> -->
+  <script src="main.js"></script>
 </body>
 
 </html>

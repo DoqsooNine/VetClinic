@@ -26,12 +26,16 @@ a {
 
 button {
     border: none;
+    outline-style: none;
 }
 
 button:hover {
     cursor: pointer;
 }
 
+input {
+    outline-style: none;
+}
 
 /* Global Classes -------------------------------------------------------------*/
 
@@ -51,7 +55,7 @@ button:hover {
 }
 
 .title {
-    margin: 6.2rem auto;
+    margin: 3.2rem auto;
     text-align: center;
 }
 
@@ -208,7 +212,7 @@ i:hover {
     max-width: 419px;
     max-height: 604px;
 
-    margin: 5.5rem 0;
+    margin: 3.5rem 0;
 }
 
 .p_hm1c {
@@ -364,7 +368,7 @@ i:hover {
 }
 
 .service {
-    margin-bottom: 6.2rem;
+    margin-bottom: 5.2rem;
 }
 
 .description {
@@ -375,7 +379,7 @@ i:hover {
 .description>h4 {
     font-size: 2.3rem;
     font-weight: 600;
-    margin-bottom: 1.4rem;
+    margin-bottom: 0.5rem;
 }
 
 .description>p {
@@ -383,7 +387,7 @@ i:hover {
 }
 
 .descr_img {
-    margin-bottom: 3rem;
+    margin-bottom: 1.2rem;
 }
 
 
@@ -441,7 +445,7 @@ i:hover {
     flex-direction: column;
     align-items: center;
 
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
 }
 
 .section-5__button {
@@ -492,7 +496,7 @@ i:hover {
 .section_6_wrapper_staff {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 8.75rem;
+    margin-bottom: 5.75rem;
 }
 
 .section_6_staff {
@@ -542,7 +546,7 @@ i:hover {
     justify-content: space-between;
     align-items: center;
 
-    margin: 10.25rem auto;
+    margin: 7.25rem auto;
 }
 
 .span_number {
@@ -575,7 +579,7 @@ i:hover {
     display: flex;
     justify-content: space-between;
 
-    margin-bottom: 8.75rem;
+    margin-bottom: 6.75rem;
 }
 
 .info_text {
@@ -635,7 +639,7 @@ a:hover {
 .footer_left {
     display: flex;
     width: 50%;
-    margin: 13% 0;
+    margin: 8% 0;
 }
 
 .footer_h4 {
@@ -661,7 +665,7 @@ a:hover {
     justify-content: space-between;
     align-items: flex-end;
 
-    margin: 13% 0;
+    margin: 8% 0;
 }
 
 .footer_rigth_h4 {
